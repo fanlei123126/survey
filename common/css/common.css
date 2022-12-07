@@ -1,0 +1,17 @@
+.logo img{width:50%;}
+.login-bg{background-color: #fff;}
+.form-box{display: flex;display: -webkit-flex;flex-direction: row;align-items: end;}
+.btn-group .search-btn{margin-left: .1rem;}
+.btn-group .btn+.btn{margin-left: .1rem}
+.form-group input{margin-right: .1rem;}
+.form-group select{margin-right: .1rem;}
+.radio label{display: flex;display: -webkit-flex;align-items: flex-end;}
+.float-e-margins .btn{margin-right: .1rem;}
+.site-box{display: flex;display: -webkit-flex;flex-direction: row;align-items: center;}
+.flex{display: flex;display: -webkit-flex;}
+.flex-column{flex-direction: column;}
+.flex-row{flex-direction: row;}
+.span-red{color:red;}
+.col-sm-8 .radio label{align-items: center;}
+.col-sm-8 .checkbox label{align-items: center;}
+.col-sm-8 .checkbox input{margin-top: unset;}

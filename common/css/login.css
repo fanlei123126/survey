@@ -1,0 +1,103 @@
+html{height: 100%;}
+body.signin {
+    background: #86b0ed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*color: rgba(255,255,255,.95);*/
+}
+.maxheight{height:100%;}
+
+.signinpanel {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.signinpanel .logopanel {
+    float: none;
+    width: auto;
+    padding: 0;
+    background: none;
+}
+
+.signinpanel .signin-info{display:flex;display: -webkit-flex;flex-direction: column;justify-content: center;align-items: center;}
+.signinpanel .signin-info .index-txt-box {}
+.signinpanel .signin-info .index-txt-box img{width:100%;display: block;}
+.signinpanel .signin-info .index-image-box {}
+.signinpanel .signin-info .index-image-box img{width:100%;display: block;}
+.signinpanel .form-control {display: block;margin-top: 15px;}
+.signinpanel .input-box{display:flex;display: -webkit-flex;flex-direction: column;justify-content: center;align-items: center;}
+.signinpanel .input-box .input-txt-box{border: 1px solid #82A2E5;border-radius: 6px;background-color: #99B4E4;height:.4rem;margin-bottom: .1rem;align-items: center;width:70%;}
+.signinpanel .input-box .input-txt-box i {padding: .1rem;color: #141414;font-size:.2rem;}
+.signinpanel .input-box .input-txt-box input {color:#333;-webkit-text-fill-color:#fff;background-color: #99B4E4;border: 0px solid #82A2E5;margin-top: unset;}
+.signinpanel .input-box .input-txt-box input:-internal-autofill-selected{background-color:#99B4E4;}
+.signinpanel .input-box .input-txt-box input:-internal-autofill-previewed{background-color:#99B4E4;}
+.signinpanel .btn-box{display: flex;display: -webkit-flex;flex-direction: row;justify-content: center;align-items: baseline;padding: 0 .4rem;}
+.signinpanel .btn-box a{padding:0 10% 0 .1rem;}
+.signinpanel .btn-box .btn {margin-top: 15px;width:50%;border-radius: 10px;}
+
+.signinpanel form {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255,255,255,.3);
+    -moz-box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+    -webkit-box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+    box-shadow: 0 3px 0 rgba(12, 12, 12, 0.03);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: .3rem .3rem .05rem;
+}
+
+.sign-left-box{padding-right:unset;display: flex;display: -webkit-flex;flex-direction:column;justify-content: center;}
+.sign-left-box .sign-copyright{color:#fff;text-align: center;}
+.sign-right-box{padding-left:unset;display: flex;display: -webkit-flex;flex-direction:column;justify-content: center;align-items: center;}
+.sign-right-box .sign-box{background-color: #fff;border-radius: 10px;width:100%;}
+.sign-right-box .sign-box form .logo{display:flex;display: -webkit-flex;flex-direction:row;justify-content: center;padding: 0 6%;}
+.sign-right-box .sign-box form .logo img{width: 60%;display: block;}
+.sign-right-box .sign-box form .system-txt{color:#113E97;font-size:.3rem;text-align: center;padding: .1rem 6%;}
+.sign-right-box .sign-box form .system-txt img{width:100%;}
+
+.sign-right-box .sign-box form .brower-box{padding-top:.6rem;display: flex;display: -webkit-flex;flex-direction:column;justify-content:center;align-items: center;}
+.sign-right-box .sign-box form .brower-box p{color:#999;}
+.sign-right-box .sign-box form .brower-box p img{width:.15rem;}
+
+@media screen and (max-width: 768px) {
+    .sign-left-box{display: none;}
+    .signinpanel,
+    .signuppanel {
+        margin: 0 auto;
+        width: 420px!important;
+        padding: 20px;
+    }
+    .signinpanel form {
+        margin-top: 20px;
+    }
+    .signup-footer {
+        margin-bottom: 10px;
+    }
+    .signuppanel .form-control {
+        margin-bottom: 10px;
+    }
+    .signup-footer .pull-left,
+    .signup-footer .pull-right {
+        float: none !important;
+        text-align: center;
+    }
+    .signinpanel .signin-info ul {
+        display: none;
+    }
+}
+@media screen and (max-width: 320px) {
+    .sign-left-box{display: none;}
+    .signinpanel,
+    .signuppanel {
+        margin:0 20px;
+        width:auto;
+    }
+}
+
+
+
+
